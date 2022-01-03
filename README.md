@@ -26,7 +26,7 @@ Une dame rentre dans le champ de la caméra sur un fond vert, des images ou des 
 
 1. Flux vidéo --> listes d'images
 
-Impossible de récupérer les fichiers vidéos des bulletins récents via france.tv, je me suis donc appuyé sur [la chaîne Youtube de Anaïs Baydemir](https://www.youtube.com/channel/UCCjC5WdWYmqLnuwILaJ2Lew), dont j'ai récupéré les fichiers mp4 par un site en ligne ([yt1s.io])(https://yt1s.io), puis renommé avec la date en format DDMMYYYY.
+Impossible de récupérer les fichiers vidéos des bulletins récents via france.tv, je me suis donc appuyé sur [la chaîne Youtube de Anaïs Baydemir](https://www.youtube.com/channel/UCCjC5WdWYmqLnuwILaJ2Lew), dont j'ai récupéré les fichiers mp4 par un site en ligne ([yt1s.io](https://yt1s.io)), puis renommé avec la date en format DDMMYYYY.
 Après avoir essayé différentes techniques, c'est avec `ffmpeg` que j'ai pu sortir un nombre suffisamment important d'images pour chacun des mp4 générés (5 par seconde).
 
 ```
